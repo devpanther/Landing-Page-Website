@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#"><img src="./images/logo-bookmark.svg"/></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item p">
+                    <a class="nav-link pr-5" href="#">FEATURES <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pr-5" href="#">PRICING <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pr-5">
+                    <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <a name="" id="button-nav" style="font-size: 13px;background: hsl(0, 94%, 66%);border: none;font-weight: 500;" class="btn btn-primary px-4" href="#" role="button">LOGIN</a>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="row">
+            <div class="col-md-6 my-auto text">
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favourite websites. Open a new 
+                    browser tab and see your sites load instantly. Try it for free.</p>
+                    <button type="button" class="btn btn-primary py-2">Get It On Chrome</button>
+                    <button type="button" class="btn btn-primary shadow py-2">Get It On Firefox</button>
+            </div>
+            <div class="col-md-6 my-auto wrapper">
+                <img class="illustrate pt-5" src="./images/illustration-hero.svg"/>
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="text-center p-5 mt-5">
+            <h1>Features</h1>
+            <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+                Your bookmarks sync between your devices so you can access them on the go.</p>
+        </div>
+    </section>
+    <section id="tabs">
+        <div class="mx-auto">
+            <ul class="justify-content-center nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Speedy Searching</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="tab-listing row">
+                        <div class="col-md-7 my-auto wrapper">
+                            <img class="illustrate pt-5" src="./images/illustration-features-tab-1.svg"/>
+                        </div>
+                        <div class="col-md-5 my-auto text">
+                            <h1>Bookmark in one click</h1>
+                            <p style="color: gray;">Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                                gives you complete control over how you manage your favourite sites.</p>
+                                <button type="button" class="btn btn-primary organize">More Info</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="tab-listing row">
+                        <div class="col-md-7 my-auto wrapper">
+                            <img class="illustrate pt-5" src="./images/illustration-features-tab-2.svg"/>
+                        </div>
+                        <div class="col-md-5 my-auto text">
+                            <h1>Intelligent search</h1>
+                            <p style="color: gray;">Our powerful search feature will help you find saved sites in no time at all. 
+                                No need to trawl through all of your bookmarks.</p>
+                                <button type="button" class="btn btn-primary organize">More Info</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="tab-listing row">
+                        <div class="col-md-7 my-auto wrapper">
+                            <img class="illustrate pt-5" src="./images/illustration-features-tab-3.svg"/>
+                        </div>
+                        <div class="col-md-5 my-auto text">
+                            <h1>Share your bookmarks</h1>
+                            <p style="color: gray;">Easily share your bookmarks and collections with others. Create a shareable 
+                                link that you can send at the click of a button.</p>
+                                <button type="button" class="btn btn-primary organize">More Info</button>
+                        </div>
+                      </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="mt-2" id="features">
+        <div class="text-center p-5 mt-5">
+            <h1>Download the extension</h1>
+            <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                got a favourite you’d like us to prioritize.</p>
+        </div>
+    </section>
+    <section id="browser">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card chrome" style="width: 18rem;">
+                    <img class="card-img-top mx-auto py-5" src="./images/logo-chrome.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Add to Chrome</h5>
+                      <p class="card-text">Minimum version 62</p>
+                      <img src="./images/bg-dots.svg" alt="">
+                      <button type="button" class="btn btn-primary mt-3">Add & Install Extension</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card firefox" style="width: 18rem;">
+                    <img class="card-img-top mx-auto py-5" src="./images/logo-firefox.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Add to Firefox</h5>
+                      <p class="card-text">Minimum version 55</p>
+                      <img src="./images/bg-dots.svg" alt="">
+                      <button type="button" class="btn btn-primary mt-3">Add & Install Extension</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card opera" style="width: 18rem;">
+                    <img class="card-img-top mx-auto py-5" src="./images/logo-opera.svg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Add to Opera</h5>
+                      <p class="card-text">Minimum version 46</p>
+                      <img src="./images/bg-dots.svg" alt="">
+                      <button type="button" class="btn btn-primary mt-3">Add & Install Extension</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="text-center pb-5">
+            <h1>Frequently Asked Questions</h1>
+            <p>Here are some of our FAQs. If you have any other questions <br/> you’d like 
+                answered please feel free to email us.</p>
+        </div>
+<div class="wrapper center-block">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+      <div class="panel-heading active" role="tab" id="headingOne">
+        <h4 class="panel-title">
+          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is Bookmark?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+        <div class="panel-body px-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingTwo">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How can I request a new browser?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div class="panel-body px-3">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Is there a mobile app?
+          </a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body px-3">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+            sollicitudin ex et ultricies bibendum.
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                What about other Chromium browsers?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="panel-body px-3">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+            vitae neque eget nisl gravida pellentesque non ut velit.
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <button type="button" style="font-size: 14px" class="btn btn-primary">More Info</button>
+      </div>
+  </div>
+  </div>
+    </section>
+</div>
+    <footer>
+        <div style="background-color: hsl(231, 69%, 60%);color: white" class="jumbotron mt-5 text-center">
+            <h6>35,000+ already joined</h6>
+            <p class="lead">Stay up-to-date with what we’re doing</p>
+            <div class="form-group">
+                <div class="row justify-content-center">
+                    <div class="col-md-3"><input type="text"
+                        class="form-control" name="" id="" aria-describedby="helpId" placeholder=""></div>
+                    <div class="col-md-1"><button type="submit" class="btn btn-secondary">Submit</button></div>
+                </div>
+              </div>
+          </div>
+          <div style="background-color: hsl(229, 31%, 21%);color: white" class="text-center">
+            <div class="container">
+                <div class="row py-3 px-4">
+                    <div class="col-md-8 foot-flex">
+                        <a class="navbar-brand" href="#"><img src="./images/logo-bookmark2.svg"/></a>
+                        <ul class="footer my-auto py-auto">
+                            <li>
+                              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking</a>
+                            </li>
+                            <li>
+                              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Speedy Searching</a>
+                            </li>
+                            <li>
+                              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="icons col-md-4 my-auto py-auto">
+                        <a style="margin-right: 14px;"><img src="./images/icon-facebook.svg" alt=""></a>
+                        <a><img src="./images/icon-twitter.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

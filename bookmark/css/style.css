@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+body{
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 400;
+}
+
+.btn-primary{
+    background-color: hsl(231, 69%, 60%) !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    border: 1px solid hsl(231, 69%, 60%) !important;
+    color: hsl(231, 69%, 60%) !important;
+}
+
+.btn-primary.shadow:hover{
+    background: transparent !important;
+    border: 1px solid gray !important;
+    color: white !important;
+}
+
+.btn-secondary{
+    background-color: hsl(0, 94%, 66%) !important;
+    border: none !important;
+}
+
+.btn-secondary:hover{
+    background-color: white !important;
+    border: 1px solid hsl(0, 94%, 66%) !important;
+    color: hsl(0, 94%, 66%) !important
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a#button-nav:hover {
+    color: hsl(0, 94%, 66%) !important;
+    border: 1px solid hsl(0, 94%, 66%) !important;
+    background: none !important;
+}
+
+
+#hero h1 {
+    font-weight: 500 !important;
+}
+
+#hero p {
+    font-weight: 400 !important;
+    color: grey;
+}
+
+#hero button {
+    font-size: 14px;
+}
+
+#hero .wrapper {
+    position: relative;
+}
+
+#hero .wrapper::after{
+    content: "";
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    height: 75%;
+    width: 600px;
+    top: 30%;
+    right: -37% !important;
+    z-index: -1;
+    border-radius: 0 0 0 100px;
+}
+
+#hero div.text button.shadow {
+    background-color: #d4d4d4 !important;
+    border: none;
+    color: black
+}
+
+#features p{
+    padding: 0 280px;
+    color: gray;
+}
+
+#tabs .wrapper {
+    position: relative;
+}
+
+#tabs .wrapper::after{
+    content: "";
+    background-color: hsl(231, 69%, 60%);
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 30%;
+    right: 40% !important;
+    z-index: -1;
+    border-radius: 0 0 100px 0;
+}
+
+#tabs button {
+    font-size: 14px;
+}
+
+#tabs .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    /* background-color: #007bff; */
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+
+.nav-pills .nav-link {
+    border-radius: 0rem !important;
+    width: 250px;
+    text-align: center;
+    color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent !important;
+}
+
+#browser img.card-img-top{
+    width: 30%;
+}
+
+#browser .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none !important;
+    border-radius: .25rem;
+    box-shadow: 1px 0px 20px 0px #ece5e5;
+}
+
+#browser .firefox{
+    margin-top: 50px;
+}
+
+#browser .opera{
+    margin-top: 100px;
+}
+
+#faq {
+    margin-top: 200px;
+}
+
+#faq .wrapper {
+    padding: 0 250px;
+}
+
+
+  .panel-heading {
+    padding: 0;
+      border:0;
+  }
+  .panel-title>a, .panel-title>a:active{
+      display:block;
+      padding:15px;
+    color:#555;
+    font-size:16px;
+    font-weight:bold;
+      text-transform:uppercase;
+      letter-spacing:1px;
+    word-spacing:3px;
+      text-decoration:none;
+  }
+  .panel-title>a:hover {
+      text-decoration: none;
+      color: hsl(0, 94%, 66%);
+  }
+  .panel-heading  a:before {
+     font-family: 'Font Awesome 5 Free';
+     content: "\f078";
+     float: right;
+     transition: all 0.5s;
+  }
+  .panel-heading.active a:before {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      transform: rotate(180deg);
+  } 
+
+  footer {
+      margin-top: 100px;
+  }
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0 !important;
+    border-radius: none !important;
+}
+
+footer ul.footer {
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+}
+
+footer ul.footer li a {
+    color: white !important;
+}
+
+.foot-flex{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1068px){
+    #hero .wrapper {
+        order: -1;
+    }
+
+    #hero .text {
+        margin-top: 100px !important;
+        text-align: center !important
+    }
+    #features p {
+        padding: 0 !important;
+    }
+
+    #tabs .text {
+        margin-top: 100px !important;
+        text-align: center !important
+    }
+
+    .card {
+        margin: 20px auto !important;
+    }
+
+    #faq .wrapper {
+        padding: 0 !important;
+    }
+
+    .foot-flex{
+        display: block !important;
+    }
+
+    footer ul.footer {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    footer button {
+        margin: 10px 0 !important;
+        width: 90% !important;
+    }
+
+    #faq {
+        margin-top: 100px;
+    }
+
+    #hero img.illustrate {
+        margin-left: -110px !important;
+    }
+
+    img.illustrate {
+        transform: scale(0.75) !important;
+    }
+
+    #hero .wrapper::after{
+        height: 65%;
+    }
+}
